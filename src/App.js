@@ -1,21 +1,28 @@
-import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home, SingleCourse, Cart, Courses } from "./pages";
-import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
+import './App.css';
+import Header from './components/Header/Header';
+import "./assets/js/script";
+import Services from './components/Services/Services';
+import About from './components/About/About';
+import Qualities from './components/Qualities/Qualities';
+import Features from './components/Features/Features';
+import Portfolio from './components/Portfolio/Portfolio';
+import Testimonials from './components/Testimonials/Testimonials';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <Sidebar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/courses/:id" element={<SingleCourse />} />
-        <Route path="/category/:category" element={<Courses />} />
-        <Route path="/cart" element={<Cart />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="App">
+      <Header />
+      <Services />
+      <About />
+      <Qualities />
+      <Features />
+      <Portfolio />
+      <Testimonials />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 

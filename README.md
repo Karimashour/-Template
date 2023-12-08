@@ -1,20 +1,19 @@
-# Employee Management Software Live preview :
+# Template design link :
 
-https://zealous-rhythm.surge.sh/
+https://657314c6c999e50d2d826bc5--sensational-florentine-49241e.netlify.app/
 
-<img src="./Capture.PNG">
+
 
 # tools :
 
 - html <br>
 - css <br>
-- primitive ui <br>
-- js<br>
+- javascript <br>
+- react.js<br>
 - react hooks<br>
-- sweet alert2 <br>
+- react icons <br>
 
 # features
 
-- Dashboard page<br>
-- Add page<br>
-- Edit page<br>
+- fully resonsive design built in react.js library<br>
+
